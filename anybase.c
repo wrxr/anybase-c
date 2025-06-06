@@ -177,7 +177,7 @@ int64_t otod(const char * sOctal) {
     while (*sOctal != '\0') {
         iDecimal = iDecimal * 8 + (*sOctal - '0');
         if (iDecimal > INT64_MAX)
-            return isNegative ? INT64_MIN : INT64_MAX;
+            return isNegative ? INT64_MIN : INT64_MAX; // ООВЫОЛВОЛФЫВО ЛФЧТО ЭТО НАХУЙ ЭТО ПИЗДЕЦ РЕАЛЬНО СОГЛАСЕН С ТОБОЙ СУКА КОГДА ТЫ ЭТО ДОБАВЯЛЛ ДОЛБОЕЕЕЕБ
         sOctal++;
     }
 
