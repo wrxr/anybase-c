@@ -13,3 +13,5 @@ NU LADNO
 vrode kak clang
 no ne fakt tipo
 disassembler v gcc ebashit pochemu to vse ravno
+
+я мать свою ебал
